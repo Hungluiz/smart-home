@@ -1,0 +1,6 @@
+sitemap default label="Home"{
+	
+	Group item=gGF label="Ground Floor" icon="groundfloor"
+	Group item=gFF label="First Floor" icon="firstfloor"
+	Group item=gGarden label="Garden" icon="garden"
+}

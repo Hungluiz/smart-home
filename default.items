@@ -1,0 +1,20 @@
+Group All
+Group gLightSensor (All)
+Group gPIRSensor (All)
+Group gTempSensor (All)
+
+Group gFF (All)
+Group gGF (All)
+Group gGarden (All)
+
+Group gR01 (gGF)
+Group gR02 (gGF)
+Group gGarage (gGF)
+Group gKitchen (gGF)
+Group gGuest (gGF)
+Group gBath (gGF)
+
+
+
+Number gf_r01_light_sensor (LightSensor, gR01)  
+	{mqtt="<[mosquitto:home/gf/r01/light_sensor:state:default]"}
