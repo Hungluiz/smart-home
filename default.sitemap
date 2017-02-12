@@ -1,6 +1,19 @@
 sitemap default label="Home"{
 	
-	Group item=gGF label="Ground Floor" icon="groundfloor"
+	Group item=gGF label="Ground Floor" icon="groundfloor"{
+		Group item=gR01 label="Room 01"{
+			Frame label="light"{
+			Default item=gf_r01_light_level label="Light level [%d] percents"
+			Switch item=gf_r01_light_level label="Turn ON/OFF"
+			}
+		}
+		Group item=gR02 label="Room 02"
+		Group item=gGarage label="Garage"
+		Group item=gKitchen label="Kitchen room"
+		Group item=gGuest label="Guest room"
+		Group item=gBath label="Bath room"
+		
+	}
 	Group item=gFF label="First Floor" icon="firstfloor"
 	Group item=gGarden label="Garden" icon="garden"
 }
