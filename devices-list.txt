@@ -84,4 +84,10 @@ home
 			(like room 01 except PC)
 		- Bath room 11
 			(like bath room 01)
+		- Bancony
+			+ Temperature sensor
+			+ Bulb
 	- Garden
+		+ Bulb
+		+ Nozzle
+		+ Humidity sensor
