@@ -2,12 +2,13 @@
 home
 	- Ground floor
 		- Room 01
-			+ Sleeping light
+			+ Sleeping bulb
 			+ Working bulb
+			+ Light sensor
 			+ PIR sensor
 			+ CO2 sensor
 			+ Temperature sensor
-			+ Humidity
+			+ Humidity sensor
 			+ TV
 			+ Air conditioner
 			+ Micro
@@ -19,10 +20,59 @@ home
 		- Room 02
 			(like room 01 except PC)
 		- Kitchen
+			+ Working bulb
+			+ Light sensor
+			+ PIR sensor
+			+ CO2 sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ Fan
+			+ Micro
+			+ Speaker
+			+ Door & window open sensor
+			+ Gas sensor
+			+ Curtain
+			+ Nozzle
+			+ Fridge
 		- Guest room
+			+ Working bulb
+			+ Light sensor
+			+ PIR sensor
+			+ CO2 sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ Fan
+			+ TV
+			+ Air conditioner
+			+ Micro
+			+ Speaker
+			+ Door & window open sensor
+			+ Gas sensor
+			+ Curtain
+			+ Nozzle
 		- Garage
+			+ Light sensor
+			+ PIR sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ CO2 sensor
+			+ Gas sensor
+			+ Micro
+			+ Speaker
 		- Bath room 01
+			+ Light sensor
+			+ PIR sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ CO2 sensor
+			+ Heating lamp
+			+ Micro
+			+ Speaker
+			+ Washing machine
+			+ Nozzle
 		- Stairs
+			+ Bulb
+			+ PIR sensor
 	- First floor
 		- Room 11
 			(like room 01)
@@ -33,4 +83,5 @@ home
 		- Room 14
 			(like room 01 except PC)
 		- Bath room 11
+			(like bath room 01)
 	- Garden
