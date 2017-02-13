@@ -41,6 +41,7 @@ home
 			+ CO2 sensor
 			+ Temperature sensor
 			+ Humidity sensor
+			+ Rolling door
 			+ Fan
 			+ TV
 			+ Air conditioner
@@ -57,6 +58,7 @@ home
 			+ Humidity sensor
 			+ CO2 sensor
 			+ Gas sensor
+			+ Rolling door
 			+ Micro
 			+ Speaker
 		- Bath room 01
