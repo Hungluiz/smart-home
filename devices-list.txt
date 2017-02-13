@@ -1,0 +1,36 @@
+#Devices list base on house structure
+home
+	- Ground floor
+		- Room 01
+			+ Sleeping light
+			+ Working bulb
+			+ PIR sensor
+			+ CO2 sensor
+			+ Temperature sensor
+			+ Humidity
+			+ TV
+			+ Air conditioner
+			+ Micro
+			+ Speaker
+			+ Door & window open sensor
+			+ PC
+			+ Curtain
+			+ Nozzle
+		- Room 02
+			(like room 01 except PC)
+		- Kitchen
+		- Guest room
+		- Garage
+		- Bath room 01
+		- Stairs
+	- First floor
+		- Room 11
+			(like room 01)
+		- Room 12
+			(like room 01)
+		- Room 13
+			(like room 01 except PC)
+		- Room 14
+			(like room 01 except PC)
+		- Bath room 11
+	- Garden
