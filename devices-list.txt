@@ -1,6 +1,6 @@
 #Devices list base on house structure
 home
-	- Ground floor
+	* Ground floor
 		- Room 01
 			+ Sleeping bulb
 			+ Working bulb
@@ -75,7 +75,7 @@ home
 		- Stairs
 			+ Bulb
 			+ PIR sensor
-	- First floor
+	* First floor
 		- Room 11
 			(like room 01)
 		- Room 12
@@ -89,7 +89,7 @@ home
 		- Bancony
 			+ Temperature sensor
 			+ Bulb
-	- Garden
+	* Garden
 		+ Bulb
 		+ Nozzle
 		+ Humidity sensor
