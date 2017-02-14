@@ -1,6 +1,5 @@
 sitemap default label="Home"{
-	
-	
+		
 	Group item=gGF label="Ground Floor" icon="groundfloor"{
 		
 		Group item=gR01 label="Room 01"{
@@ -16,7 +15,7 @@ sitemap default label="Home"{
 			Default item=gf_r01_curtain icon="blind"
 			Text item=gf_r01_pc
 		}
-		
+
 		Group item=gR02 label="Room 02"
 		Group item=gGarage label="Garage"
 		Group item=gKitchen label="Kitchen room"

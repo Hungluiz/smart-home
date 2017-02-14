@@ -1,0 +1,95 @@
+#Devices list base on house structure
+home
+	* Ground floor
+		- Room 01
+			+ Sleeping bulb
+			+ Working bulb
+			+ Light sensor
+			+ PIR sensor
+			+ CO2 sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ TV
+			+ Air conditioner
+			+ Micro
+			+ Speaker
+			+ Door & window open sensor
+			+ PC
+			+ Curtain
+			+ Nozzle
+		- Room 02
+			(like room 01 except PC)
+		- Kitchen
+			+ Working bulb
+			+ Light sensor
+			+ PIR sensor
+			+ CO2 sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ Fan
+			+ Micro
+			+ Speaker
+			+ Door & window open sensor
+			+ Gas sensor
+			+ Curtain
+			+ Nozzle
+			+ Fridge
+		- Guest room
+			+ Working bulb
+			+ Light sensor
+			+ PIR sensor
+			+ CO2 sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ Rolling door
+			+ Fan
+			+ TV
+			+ Air conditioner
+			+ Micro
+			+ Speaker
+			+ Door & window open sensor
+			+ Gas sensor
+			+ Curtain
+			+ Nozzle
+		- Garage
+			+ Light sensor
+			+ PIR sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ CO2 sensor
+			+ Gas sensor
+			+ Rolling door
+			+ Micro
+			+ Speaker
+		- Bath room 01
+			+ Light sensor
+			+ PIR sensor
+			+ Temperature sensor
+			+ Humidity sensor
+			+ CO2 sensor
+			+ Heating lamp
+			+ Micro
+			+ Speaker
+			+ Washing machine
+			+ Nozzle
+		- Stairs
+			+ Bulb
+			+ PIR sensor
+	* First floor
+		- Room 11
+			(like room 01)
+		- Room 12
+			(like room 01)
+		- Room 13
+			(like room 01 except PC)
+		- Room 14
+			(like room 01 except PC)
+		- Bath room 11
+			(like bath room 01)
+		- Bancony
+			+ Temperature sensor
+			+ Bulb
+	* Garden
+		+ Bulb
+		+ Nozzle
+		+ Humidity sensor
