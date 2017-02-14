@@ -2,6 +2,16 @@ Group All
 Group gLightSensor (All)
 Group gPIRSensor (All)
 Group gTempSensor (All)
+Group gHumidity(All)
+Group gLight (All)
+Group gCO2 (All)
+Group gTV (All)
+Group gDoor (All)
+Group gTemp (All)
+Group gWindow (All)
+Group gPC (All)
+Group gCurtain (All)
+
 
 Group gFF (All)
 Group gGF (All)
@@ -15,6 +25,28 @@ Group gGuest (gGF)
 Group gBath (gGF)
 
 
+//   Items in room 01
+Dimmer gf_r01_light_level "Light level"<dimmablelight> (gLight, gR01)
+Switch gf_r01_switch_light "Turn ON/OFF"<light> (gLight, gR01)
+Contact gf_r01_motivation "Motivation detected [%s]"(gR01)
+Number gf_r01_co2_level "CO2 level [%d ppm]" <carbondioxide> (gCO2, gR01)
+Number gf_r01_temp "Temperature [%d °C]" <temperature> (gTemp, gR01)
+Number gf_r01_humidity "Humidity level [%d %%]" <humidity> (gHumidity, gR01)
+Switch gf_r01_tv "Television" <television> (gTV, gR01)
+Contact gf_r01_door "Door [%s]" <door> (gDoor, gR01)
+Contact gf_r01_window "Window [%s]" (gWindow, gR01)
+Rollershutter gf_r01_curtain "Curtain" <blind> (gCurtain, gR01)
+Contact gf_r01_pc "PC [%s]" (gPC, gR01)
 
-Number gf_r01_light_sensor (LightSensor, gR01)  
-	{mqtt="<[mosquitto:home/gf/r01/light_sensor:state:default]"}
+
+//   Items in room 02
+Dimmer gf_r02_light_level "Light level"<dimmablelight> (gLight, gR02)
+Switch gf_r02_switch_light "Turn ON/OFF"<light> (gLight, gR02)
+Contact gf_r02_motivation "Motivation detected [%s]"(gR02)
+Number gf_r02_co2_level "CO2 level [%d]"
+Number gf_r02_temp "Temperature [%d]" <temperature> (gTemp, gR02)
+Number gf_r02_humidity "Humidity level [%d]"
+Switch gf_r02_tv "Television" <television> (gTV, gR02)
+Contact gf_r02_door "Door [%s]" <door> (gDoor, gR02)
+Contact gf_r02_window "Window [%s]" (gWindow, gR02)
+Rollershutter gf_r02_curtain "Curtain" (gCurtain, gR02)
