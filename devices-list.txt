@@ -11,7 +11,7 @@ home
 			+ Humidity sensor (humiSensor)
 			+ Micro (micro)
 			+ Speaker (speaker)
-			+ Door & window open sensor (doorOpenSesor | windownOpenSensor)
+			+ Door & window open sensor (doorOpenSesor | windowOpenSensor)
 			+ PC (pc)
 			+ Curtain (curtain)
 			+ Nozzle (nozzle)
