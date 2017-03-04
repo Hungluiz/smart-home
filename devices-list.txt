@@ -9,8 +9,6 @@ home
 			+ CO2 sensor
 			+ Temperature sensor
 			+ Humidity sensor
-			+ TV
-			+ Air conditioner
 			+ Micro
 			+ Speaker
 			+ Door & window open sensor
@@ -26,7 +24,6 @@ home
 			+ CO2 sensor
 			+ Temperature sensor
 			+ Humidity sensor
-			+ Fan
 			+ Micro
 			+ Speaker
 			+ Door & window open sensor
@@ -42,9 +39,6 @@ home
 			+ Temperature sensor
 			+ Humidity sensor
 			+ Rolling door
-			+ Fan
-			+ TV
-			+ Air conditioner
 			+ Micro
 			+ Speaker
 			+ Door & window open sensor
@@ -67,10 +61,8 @@ home
 			+ Temperature sensor
 			+ Humidity sensor
 			+ CO2 sensor
-			+ Heating lamp
 			+ Micro
 			+ Speaker
-			+ Washing machine
 			+ Nozzle
 		- Stairs
 			+ Bulb
