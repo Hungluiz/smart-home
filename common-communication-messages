@@ -1,0 +1,6 @@
+# Reg message 
+	{'reg':id:type:ip}
+# Set message
+	{'set':id:command}
+#Ping message
+	{'ping':id}
