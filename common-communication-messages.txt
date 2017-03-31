@@ -3,4 +3,4 @@
 # Set message
 	{'set':id:command}
 #Ping message
-	{'ping':id}
+	{'ping':id:ip}
