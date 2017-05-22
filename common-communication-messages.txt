@@ -4,3 +4,5 @@
 	{'set':id:ip:command}
 #Ping message
 	{'ping':id:ip}
+#update status message
+	{'status':id:id:command}
